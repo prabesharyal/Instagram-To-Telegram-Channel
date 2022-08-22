@@ -1,0 +1,55 @@
+{
+    "name":"ig-tg-channel-poster",
+    "description":"An python bot to scrape your instagram feed and send you in Telegram Channel.",
+    "repository": "https://github.com/prabesharyal/Instagram-To-Telegram-Channel",
+    "website":"https://prabesharyal.info.np",
+    "keywords":[
+        "python",
+        "telegram",
+        "instagram",
+        "channel",
+        "auto",
+        "poster",
+        "bot",
+        "instaloader",
+        "python-telegram-bot"
+    ],
+    "env":{
+    "ig_username": {
+        "description": "Enter your Instagram 'Username' :"
+    },
+    "ig_password": {
+        "description": "Enter your Instagram 'Password' : "
+    },
+    "BOT_API_TOKEN": {
+        "description": "Enter Bot API Token which you get from Botfather in Telegram."
+    },
+    "channel": {
+        "description": "Enter Channel ID of your Telegram where you want to send posts."
+    },
+    "every_x_minutes": {
+        "description": "Enter Time Period at which you want to srape your feed regularly (IN MINUTES)"
+    },
+    "no_of_posts": {
+        "description": "Enter how much posts to be scraped at above time."
+    },
+    "Welcome_Message": {
+        "description": "Enter some string or welcome message so that you'll know that bot has started working in your channel."
+    },
+    "secret_command": {
+        "description": "Enter a secret command which you'll send to bot in order to activate. Don't include / here but you must use in Telegram."
+    },
+    "every_post_caption" : {
+    "description": "Enter a Caption for every posts you sent to Telegram in image. Can be your channel username or some emoji."
+}
+    },
+
+    "buildpacks": [
+        {
+            "url":"https://github.com/heroku/heroku-buildpack-python.git"
+        }
+    ]
+
+
+
+}
