@@ -2,7 +2,7 @@
 
 A bot to scrap your instagram feed and post to your Telegram Channel in certain Interval.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.herokucdn.com/deploy?template=https://github.com/prabesharyal/Instagram-To-Telegram-Channel/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabesharyal/Instagram-To-Telegram-Channel/tree/main/)
 
 # Table of Contents
  1. [Introduction](#1)
@@ -92,7 +92,7 @@ There are some other variables which you need to note about.
 
 ## Deploying to HEROKU :
 Press the button below or at the top of this readme and insert necessary [environment variables](#environ) and you're done.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.herokucdn.com/deploy?template=https://github.com/prabesharyal/Instagram-To-Telegram-Channel/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabesharyal/Instagram-To-Telegram-Channel/tree/main/)
 
 # License <a name="lic"></a>
 > Distributed Under GPL or MIT License by [@PrabeshAryalNP](https://t.me/prabesharyalnp) on [social](https://twitter.com/prabesharyalnp) or [@PrabeshAryal](https://github.com/prabesharyal) on code sites.
