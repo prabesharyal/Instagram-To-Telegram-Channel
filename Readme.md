@@ -4,6 +4,9 @@ A bot to scrap your instagram feed and post to your Telegram Channel in certain 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabesharyal/Instagram-To-Telegram-Channel/tree/main/)
 
+**Note** : *Bot is not working online at the moment due to some login issues, will let you know whenever it's solved.*
+
+
 # Table of Contents
  1. [Introduction](#1)
     1. [About Bot](#1.1)
