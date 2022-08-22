@@ -35,8 +35,8 @@ async def post_scrape(update: Update, context: ContextTypes):
     #Loop Where the main logic begins
     while True:
         n = 1
-        checkdownload_dir = ".\\：feed"
-        temp_downloaded_files = os.listdir('.\\：feed\\')
+        checkdownload_dir = "./：feed"
+        temp_downloaded_files = os.listdir('./：feed/')
         for unnecessary_files in temp_downloaded_files:
             unPath=os.path.join(checkdownload_dir,unnecessary_files)
             os.remove(unPath)
@@ -45,8 +45,8 @@ async def post_scrape(update: Update, context: ContextTypes):
         scrape_feed()
         print("Sending from feed. \n")
         time.sleep(30)
-        download_dir = ".\\：feed"
-        downloaded_files = os.listdir('.\\：feed\\')
+        download_dir = "./：feed"
+        downloaded_files = os.listdir('./：feed/')
         downloads = []
         for lists in downloaded_files:
             files = os.path.join(download_dir,lists)
